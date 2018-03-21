@@ -1,0 +1,319 @@
+body{
+    
+    padding: 0;
+    margin: 0;
+}
+
+.nav{
+    
+    text-align: center;
+}
+
+.nav li a{
+    
+    color: #2196F3;
+    text-align: center;
+    font-family: 'Fira Sans Condensed',sans-serif;
+    font-size:130%;
+}
+
+.nav li a:hover{
+    
+    color:black;
+}
+
+.nav li a:hover .nav li a:focus{
+    
+    background-color: none !important;
+}
+
+.navbar-brand{
+    
+    //color: #C4635A;
+}
+
+.cusNav{
+    
+    background-color: white;
+}
+
+.nav-menu{
+    
+    margin-right:10%;
+}
+
+.jumbotron{
+
+    margin-top: -20px;
+    background: url("..//img/Image-20170403_143230.jpg") no-repeat center  20%;
+    background-size: cover;
+    height: 550px;
+}
+
+.primaryJumbotron{
+    
+    
+}
+
+.jumbotron .primaryJumbotron p{
+    
+    position:relative;
+    z-index:1005;
+
+}
+
+.jumbotron .primaryJumbotron span{
+    
+    color:red;
+
+}
+
+.primaryJumbotron .btn{
+    
+    background-color:#2196F3;
+    color: white;
+}
+
+.mission{
+    
+    text-align:center;
+    font-weight: bold;
+    font-family:"Lato", Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif;
+    font-size:38px;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+
+.mission span{
+    
+    display: block;
+    font-size: 20px;
+    font-weight: 400;
+    color: #979799;
+    font-family: 'Fira Sans Condensed', sans-serif;
+    margin-top:-2px;
+}
+
+.features span{
+    
+    
+    font-size: 20px;
+    font-weight: 400;
+    color: #000;
+    font-family: 'Fira Sans Condensed', sans-serif;
+    
+    
+}
+
+.features{
+    
+    margin-bottom: 65px;
+}
+
+.features p{
+    
+    margin-top:10px;
+    color:#9C9C9C;
+    font-family: 'Fira Sans Condensed', sans-serif;
+    letter-spacing: 0.5px;
+    font-size: 15px;
+    font-weight:100;
+    text-align: justify;
+    line-height: 25px;
+    
+}
+.features img{
+    
+    float: left;
+    margin-right:35px;
+    margin-top:-10px;
+}
+
+#section{
+    
+    width: 100%;
+}
+
+.hero-container{
+    
+    background-color: #EFEFEF;
+    color:#67484D;
+    width: 100%;
+}
+
+.heading p{
+    
+    
+    font-size:38px;
+    font-family:'Fira Sans Condensed', sans-serif;
+    font-weight:900;
+    text-align: center;
+    margin-top:30px;
+}
+
+.heading span{
+        
+    color:#5A5A5A;
+    font-family: 'Fira Sans Condensed', sans-serif;
+    font-size: 17px;
+    font-weight:-100;
+    text-align: center;
+
+}
+
+.content{
+    
+    margin-top:70px;
+    margin-bottom: 40px;
+}
+
+.content img{
+    
+    height: 100px;
+    width: 100px;
+    display: Block;
+    margin:0 auto 10px auto;
+    
+}
+
+.content span{
+    
+    display: block;
+    font-size: 25px;
+    font-weight: 400;
+    color: #E2574C;
+    font-family: 'Fira Sans Condensed', sans-serif;
+    text-align: center;
+    margin:0 auto;
+    
+}
+
+.content ul li{
+    
+    margin-top:10px;
+    color:#5A5A5A;
+    font-family: 'Fira Sans Condensed', sans-serif;
+    letter-spacing: 0.5px;
+    font-size: 16px;
+    font-weight:100;
+    line-height: 25px;
+    list-style: none;
+}
+
+.content ul li a{
+    
+color:#E2574C;
+
+}
+
+
+
+.footer-container{
+    
+    background-color: #222D3A;
+    height: 500px;
+    COLOR:white;
+}
+
+
+.primaryJumbotron .overlay{
+    
+    background-color:black;
+	/*background-color:rgba(0,0,0,0.6); */ /* Not compatible with IE 7 IE 8 */
+	height:549px;
+    position: absolute;
+	left:0;
+	margin:auto;
+	opacity:0.65; /* Not compatible with IE 7. Limited IE 8:  http://caniuse.com/#search=opacity */
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)"; /* IE 8 */
+	filter: alpha(opacity=50); /* IE 7 */	
+	top:52px;
+ 	width:100%;
+ 	z-index:1004;
+    
+}
+/* we hear you have leftover food, could you share it with us instead of throwing it away ?
+Just a 45 seconds form and we come get the leftovers.*/
+
+#jumbo-heading{
+    
+    font-family: 'Lobster Two', cursive;;
+    text-align: center;
+    color:white;
+    font-size:80px;
+    position:relative;
+    top:30px;
+}
+
+.buttonRow{
+    
+    
+    text-align:center;
+    margin-top:80px;
+}
+
+
+.cusBtn{
+    
+    width:456px;
+    font-family: 'Fira Sans Condensed', sans-serif;
+    font-size:120%;
+    overflow:inherit;
+    background-color: #2196F3;
+
+}
+
+#jumbo-sub-heading{
+    
+    font-family: 'Fira Sans Condensed', sans-serif;
+    text-align: center;
+    color:white;
+    font-size: 30px;
+    padding-top:10px
+    
+}
+
+#jumbo-sub-heading1{
+    
+  
+}
+
+.fform{
+    
+    text-align: center;
+}
+
+.cusModal{
+    
+    border: 4px orange solid;
+    font-family:'Fira Sans Condensed', sans-serif;
+    font-size: 16px;
+}
+
+/* Event type jquery ui*/
+
+ fieldset {
+      border: 0;
+    }
+    label {
+      display: block;
+    }
+    .overflow {
+      height: 200px;
+    }
+
+/* */
+
+.pickDate{
+    
+    border:1px #ccc solid;
+    border-radius:4px;
+}
+
+.modal-header{
+    
+    text-align: center;
+}
+
+
+

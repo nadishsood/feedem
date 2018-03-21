@@ -1,0 +1,338 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    
+
+    <title>Feedem</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="../../assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/style.css" rel="stylesheet">
+	<link href="jquery-ui.css" rel="stylesheet">
+      
+      <link href="https://fonts.googleapis.com/css?family=Fira+Sans+Condensed" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Lobster+Two" rel="stylesheet">
+    
+    </head>
+
+  <body>
+      
+    
+      
+    <nav class="navbar cusNav ">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">FEEDEM</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav nav-menu navbar-nav navbar-right">
+            <li class="active pull-xs-right"><a href="#">HOME <span class="sr-only">(current)</span></a></li>
+            <li><a href="#">OUR MISSION</a></li>
+            <li><a href="#">PARTNERS</a></li>
+            <li><a href="#">DONATE</a></li>
+            <li><a href="#">BUG US</a></li>
+            
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+      </nav>
+      
+      <div class="jumbotron">
+           
+          
+          
+           
+
+            <!-- Modal -->
+
+            <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content cusModal">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title " id="myModalLabel">This form takes under 2 minutes, sorry Maggi !</h4>
+                  </div>
+                  <div class="modal-body">
+                    <form class="form-horizontal">
+                                   
+                                   <div class="form-group dropdown-element">
+                                        <label for="inputPassword3" class="col-sm-4 control-label">Event Type : </label>
+                                        <div class="col-sm-8">
+                                          <div class="dropdown">
+                                          <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                                            Wedding
+                                            <span class="caret"></span>
+                                          </button>
+                                          <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                                            <li><a href="#">Wedding</a></li>
+                                            <li><a href="#">Engagement/ Reception etc</a></li>
+                                            <li><a href="#">Party</a></li>
+
+                                          </ul>
+                                        </div> 
+                                        </div>
+                                      </div>
+                                    
+                                    <div class="form-group">
+                                        <label for="inputEmail3" class="col-sm-4 control-label">Name of Event :</label>
+                                        <div class="col-sm-8">
+                                          <input type="email" class="form-control inputholders" id="inputEmail3" placeholder="e.g. Romeo weds Juliet, wait that never happened ?">
+                                        </div>
+                                      </div>
+                                      <div class="form-group">
+                                        <label for="dateOfEvent" class="col-sm-4 control-label">Date Of Event :</label>
+                                        <div class="col-sm-8">
+                                          <input type="text" id="datepicker" class="pickDate">
+                                        </div>
+                                      </div>
+                      
+                                        
+                                    
+                                    <div class="form-group">
+                                        <label for="inputPassword3" class="col-sm-4 control-label">Place of Event :</label>
+                                        <div class="col-sm-8">
+                                            <textarea rows="3" cols="50" type="text" class="form-control address-input" id="inputPassword3" placeholder="Complete Address please ! "></textarea>
+                                        </div>
+                                      </div>
+                      
+                                    <div class="form-group">
+                                        <label for="inputEmail3" class="col-sm-4 control-label">Mobile Number :</label>
+                                        <div class="col-sm-8">
+                                          <input type="email" class="form-control inputholders" id="inputEmail3" placeholder="Mobile Number, we promise no spam !">
+                                        </div>
+                                      </div>
+                      
+                                
+                                    
+                                    
+                                    
+                                    <div class="form-group">
+                                        <div class="col-sm-offset-4 col-sm-10">
+                                          <div class="checkbox">
+                                            <label>
+                                              <input type="checkbox"> I agree to give you my leftover food !
+                                            </label>
+                                          </div>
+                                        </div>
+                                      </div>
+                                      
+                                    </form>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Come Get My Food !</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          
+          
+          
+          
+          <div class="container primaryJumbotron">
+              
+              <div class="row buttonRow">
+                  
+                  <div class="col-md-12">
+                      
+                    <p id="jumbo-sub-heading">We help the hungry with your leftover food !</p>
+                     <!-- Button trigger modal -->
+                    
+                      
+                    <p><button type="button" class="btn btn-lg cusBtn" data-toggle="modal" data-target="#myModal">
+                         Come Get My food !
+                    </button></p>
+                  
+                    </div>
+              
+              </div>
+             
+              <div class="row overlay">
+                  
+                  <div class="col-md-12">
+                      
+                    <h1 id="jumbo-heading">Let's Feed Them</h1>
+                        
+                      
+                  </div>
+             </div>
+              
+              
+         
+              
+              </div>
+          </div>
+     
+      </div>
+      
+      <div class="container container1">
+        <div class="row">
+                <div class="col-md-12 mission">
+                    <p>Our Mission</p>
+                    <span>We get the leftover food picked up and distributed to the poor. As simple as that !</span>
+                </div>  
+            
+            <div class="row features">
+                <div class="col-md-6">
+                    <img src="img/nowastage.svg">
+                    <span>No Wastage</span>
+                    <p>Every penny you spend on the food, we make sure it finds its way into someone's stomach. Not literally, *Chuckels*  </p>
+                </div> 
+                <div class="col-md-6">
+                    <img src="img/Gold-Cart.svg">
+                    <span>We Get Leftover Food Picked Up</span>
+                    <p>Just tell us the place, we'll be there to pickup the leftovers, and we promise no unnecessary interference with your event.</p>
+                </div> 
+            </div>
+            
+            <div class="row features">
+                <div class="col-md-6">
+                    <img src="img/Food-Dome.svg">
+
+                    <span>Give it to those who need it</span>
+                    <p>We get the food transported to orphanages, slums, to people who actually need it. </p>
+                </div> 
+                <div class="col-md-6">
+                    <img src="img/Batman.svg">
+
+                    <span>No More Hungry Stomachs</span>
+                    <p>Our ultimate motto is to see a world where hunger doesn't take a life. No, not even one life.</p>
+                </div> 
+            </div>
+            
+            <div class="row features">
+                <div class="col-md-6">
+                    <img src="img/Love-Letter.svg">
+                    <span>You feel great</span>
+                    <p>They say you can only feel truly whole, by giving to others. Experience the contentment by doing charity.</p>
+                </div> 
+                <div class="col-md-6">
+                    <img src="img/Beach.svg">
+                    
+                    <span>Less Environment Pollution</span>
+                    <p>Instead of the garbage dump, your food goes to someone in need of it. The environment sure thanks us ! </p>
+                </div> 
+            </div>
+      </div>
+      </div>
+          
+    
+          
+        <div class="container-fluid hero-container">
+            <div class="container">
+                <div class="row heading">
+                    
+                    <p>OUR PARTNERS IN CRIME, OOPS JUSTICE !</p>
+                    <span>Once you ask us to get your leftover food handled, we have these organisations and their team to have the actual job of getting and redistributing your generosity done.</span>
+                
+                </div>
+                
+                
+                <div class = "row content">
+                    
+                    <div class="col-md-4 partner">
+                        
+                        <img src="img/fi-icon.png">
+                        <span>Feeding India</span>
+                        
+                        <ul>
+                            <li>Feeding India a youth run not for profit organization
+                                that works to end Hunger and Malnutrition.</li>
+                            <li>They redistribute excess food from corporates, restaurants, weddings, hostels, college canteens to people in dire need.</li>
+                            <li>Catch them here at :- <a href="http://www.feedingindia.org" target="_blank">Feeding India</a></li>
+                            
+                        </ul>
+                        
+                        
+                        
+
+
+                    </div>
+                    
+                    <div class="col-md-4">
+                        <img src="img/fi-icon.png">
+                        <span>Feeding India</span>
+                        
+                        <ul>
+                            <li>Feeding India a youth run not for profit organization
+                                that works to end Hunger and Malnutrition.</li>
+                            <li>They redistribute excess food from corporates, restaurants, weddings, hostels, college canteens to people in dire need.</li>
+                            <li>Catch them here at :- <a href="http://www.feedingindia.org" target="_blank">Feeding India</a></li>
+                            
+                        </ul>
+
+                    </div>
+                    
+                    <div class="col-md-4">
+                        <img src="img/fi-icon.png">
+                        <span>Feeding India</span>
+                        
+                        <ul>
+                            <li>Feeding India a youth run not for profit organization
+                                that works to end Hunger and Malnutrition.</li>
+                            <li>They redistribute excess food from corporates, restaurants, weddings, hostels, college canteens to people in dire need.</li>
+                            <li>Catch them here at :- <a href="http://www.feedingindia.org" target="_blank">Feeding India</a></li>
+                            
+                            
+                            
+                        </ul>
+
+                    </div>
+
+                </div>
+                
+         </div>
+        
+        </div> 
+      
+      <div class="container-fluid footer-container">
+          <div class="container footer">
+                
+            
+          </div>
+      </div>
+          
+          
+  
+        <div id="overlay-bg"></div>  
+        
+
+      
+      
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="js/bootstrap.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+    <script src = "../Feedem/js/feedem.js"></script>
+    <script src="external/jquery/jquery.js"></script>
+    <script src="jquery-ui.js"></script>
+    
+    
+
+  </body>
+</html>
